@@ -2,7 +2,7 @@
 
 The functionality of the original script is awesome, despite being several years old now. OP-1 becomes a fully featured control surface for Ableton, with a lot of neat features. Jozef built some nice additions back in 2017, and I'll be implementing new features I think of (and any bug fixes that come up) now. Feature requests are welcome!
 
-I enjoy using both session and arrangement view in Ableton, often starting ideas as session clips and building out a lot of the instrumental as scenes before locking in the arrangement. I could see a full mode-switching version of the control surface being an interesting alternate version of this. While I adore the workflow of the Push, I'm not sure if the OP-1 controls are as conducive to this kind of approach. I tend to prefer a straightforward, intuitive interface above all. Since I feel that most common things are already quite easy with a mouse and my custom BetterTouchTool layout (with buttons for creating Locators and other common tasks in Ableton), my approach to the OP-1 controls is generally to streamline the interface and prioritize perfromance over arranging and other more complex workflow steps best handled at the computer.
+I enjoy using both session and arrangement view in Ableton, often starting ideas as session clips and building out a lot of the instrumental as scenes before locking in the arrangement. I could see a full mode-switching version of the control surface being an interesting alternate version of this. While I adore the workflow of the Push, I'm not sure if the OP-1 controls are as conducive to this kind of approach. I tend to prefer a straightforward, intuitive interface above all, so my approach to the OP-1 mapping is generally to streamline things in a way that maximizes creative flow rather than implementing controls for as much Ableton functionality as possible.
 
 ===
 
@@ -68,6 +68,7 @@ LAST UPDATE - 28 Jul 2017
 ## Installation
 
 - Please note that folders in the "MIDI Remote Scripts" folder must not contain dashes. Otherwise python will fail to import the module.
+- Also make sure you're running the latest firmware on your OP-1. Version 242 (released May 2020) included an important bug fix for octave/down functionality in midi control mode.
 
 ### macOS:
 
