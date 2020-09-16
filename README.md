@@ -1,6 +1,12 @@
-Ableton Live Control Surface for Teenage Engineering OP-1 
+# Ableton Live Control Surface for Teenage Engineering OP-1 
 
-Copyright (C) 2012 Imaginando, Lda & Teenage Engineering AB
+The functionality of the original script is awesome, despite being several years old now. OP-1 becomes a fully featured control surface for Ableton, with a lot of neat features. Jozef built some nice additions back in 2017, and I'll be implementing new features I think of (and any bug fixes that come up) now. Feature requests are welcome!
+
+I enjoy using both session and arrangement view in Ableton, often starting ideas as session clips and building out a lot of the instrumental as scenes before locking in the arrangement. I could see a full mode-switching version of the control surface being an interesting alternate version of this. While I adore the workflow of the Push, I'm not sure if the OP-1 controls are as conducive to this kind of approach. I tend to prefer a straightforward, intuitive interface above all. Since I feel that most common things are already quite easy with a mouse and my custom BetterTouchTool layout (with buttons for creating Locators and other common tasks in Ableton), my approach to the OP-1 controls is generally to streamline the interface and prioritize perfromance over arranging and other more complex workflow steps best handled at the computer.
+
+===
+
+Original script (C) 2012 Imaginando, Lda & Teenage Engineering AB
    
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -59,28 +65,28 @@ LAST UPDATE - 28 Jul 2017
 - The main problems with the Live 9 version of the scripts were fixed.
 - The red box appears again and the song position arrows work again but with a workaround as I still couldn't understand why set_seek_buttons of the TransportComponent aren't working.
 
-INSTALLATION
+## Installation
 
 - Please note that folders in the "MIDI Remote Scripts" folder must not contain dashes. Otherwise python will fail to import the module.
 
-- Mac OSX
+### macOS:
 
- Right click on Live App bundle and click "Show Package Contents"
- Navigate to "Contents\App-Resources\MIDI Remote Scripts"
- Drop OP-1 folder into MIDI Remote Scripts Folder
+* Right click on Live App bundle and click "Show Package Contents"
+* Navigate to "Contents\App-Resources\MIDI Remote Scripts"
+* Drop OP-1 folder into MIDI Remote Scripts Folder
 
-- Windows
+### Windows:
 
- Look for Ableton Live executable file
- Look for the folder MIDI Remote Scripts
- Drop OP-1 folder into MIDI Remote Scripts Folder
+* Look for Ableton Live executable file
+* Look for the folder MIDI Remote Scripts
+* Drop OP-1 folder into MIDI Remote Scripts Folder
 
-- Finalize
+### Finalize
 
  Go to Ableton Live MIDI preferences
  Choose OP1 Control Surface
 
-- For operation details give a look on TE-OP1-Mapping-Guide.pdf
+For operation details give a look on TE-OP1-Mapping-Guide.pdf
 
 ==
 
