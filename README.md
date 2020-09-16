@@ -4,7 +4,32 @@ The functionality of the original script is awesome, despite being several years
 
 I enjoy using both session and arrangement view in Ableton, often starting ideas as session clips and building out a lot of the instrumental as scenes before locking in the arrangement. I could see a full mode-switching version of the control surface being an interesting alternate version of this. While I adore the workflow of the Push, I'm not sure if the OP-1 controls are as conducive to this kind of approach. I tend to prefer a straightforward, intuitive interface above all, so my approach to the OP-1 mapping is generally to streamline things in a way that maximizes creative flow rather than implementing controls for as much Ableton functionality as possible.
 
-===
+## Installation
+
+- Please note that folders in the "MIDI Remote Scripts" folder must not contain dashes. Otherwise python will fail to import the module.
+- Also make sure you're running the latest firmware on your OP-1. Version 242 (released May 2020) included an important bug fix for octave/down functionality in midi control mode.
+
+### macOS:
+
+* Right click on Live App bundle and click "Show Package Contents"
+* Navigate to "Contents\App-Resources\MIDI Remote Scripts"
+* Drop OP-1 folder into MIDI Remote Scripts Folder
+
+### Windows:
+
+* Look for Ableton Live executable file
+* Look for the folder MIDI Remote Scripts
+* Drop OP-1 folder into MIDI Remote Scripts Folder
+
+### Finalize
+
+ Go to Ableton Live MIDI preferences
+ Choose OP1 Control Surface
+
+For operation details give a look on TE-OP1-Mapping-Guide.pdf
+
+## Update Log
+Tested working as of September 2020, with Live 10.1.18 on macOS Catalina 10.15.6 
 
 LAST UPDATE - 28 Jul 2017
 - code cleanup
@@ -47,30 +72,6 @@ LAST UPDATE - 28 Jul 2017
 
 - The main problems with the Live 9 version of the scripts were fixed.
 - The red box appears again and the song position arrows work again but with a workaround as I still couldn't understand why set_seek_buttons of the TransportComponent aren't working.
-
-## Installation
-
-- Please note that folders in the "MIDI Remote Scripts" folder must not contain dashes. Otherwise python will fail to import the module.
-- Also make sure you're running the latest firmware on your OP-1. Version 242 (released May 2020) included an important bug fix for octave/down functionality in midi control mode.
-
-### macOS:
-
-* Right click on Live App bundle and click "Show Package Contents"
-* Navigate to "Contents\App-Resources\MIDI Remote Scripts"
-* Drop OP-1 folder into MIDI Remote Scripts Folder
-
-### Windows:
-
-* Look for Ableton Live executable file
-* Look for the folder MIDI Remote Scripts
-* Drop OP-1 folder into MIDI Remote Scripts Folder
-
-### Finalize
-
- Go to Ableton Live MIDI preferences
- Choose OP1 Control Surface
-
-For operation details give a look on TE-OP1-Mapping-Guide.pdf
 
 ==
 
